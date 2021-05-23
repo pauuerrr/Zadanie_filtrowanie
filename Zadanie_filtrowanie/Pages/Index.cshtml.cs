@@ -5,9 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Zadanie_filtrowanie.Utils;
 
 namespace Zadanie_filtrowanie.Pages
 {
+    [CustomFilterAbilities]
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
